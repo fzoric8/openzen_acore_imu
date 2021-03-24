@@ -33,3 +33,10 @@ You can change permissions with following command:
 sudo chmod 777 /dev/ttyUSB0
 ```
 
+## How to find out sensor names? 
+
+In order to find out sensor names (make sure they're connected to PC) 
+run following: 
+```
+rosrun openzen_sensor openzen_sensor_node
+```
