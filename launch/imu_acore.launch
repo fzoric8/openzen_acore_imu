@@ -1,0 +1,36 @@
+<launch>
+
+    <!-- Node names -->
+    <arg name="node1_name" value="imu1_ros_node"/>
+    <arg name="node2_name" value="imu2_ros_node"/>
+    <arg name="node3_name" value="imu3_ros_node"/>
+
+    <!-- Imu names -->
+    <arg name="imu1_name" value="LPMSCU2001046"/>
+    <arg name="imu2_name" value="LPMSRS2000652"/>
+    <arg name="imu3_name" value="LPMSTT2001046"/>
+
+    <!-- First IMU-->
+    <node name="imu_node1" type="openzen_sensor_node" pkg="openzen_sensor"
+          args="_name:=$(arg node1_name) \
+                _sensor_name:=$(arg imu1_name) \
+                imu:=/imu1">
+    </node>
+
+    <!-- Second IMU -->
+    <node name="imu_node2" type="openzen_sensor_node" pkg="openzen_sensor"
+          args="_name:=$(arg node2_name) \
+                _sensor_name:=$(arg imu2_name) \
+                imu:=/imu2">
+    </node>
+
+    <!-- Third IMU -->
+    <node name="imu_node3" type="openzen_sensor_node" pkg="openzen_sensor"
+          args="_name:=$(arg node3_name) \
+                _sensor_name:=$(arg imu3_name) \
+                imu:=/imu3">
+    </node>
+
+</launch>
+
+
