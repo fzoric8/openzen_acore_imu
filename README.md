@@ -40,3 +40,10 @@ run following:
 ```
 rosrun openzen_sensor openzen_sensor_node
 ```
+Output should look like this: 
+```
+[ INFO] [1616598192.491786811]: OpenZen sensor with name LPMSCU2001046 on IO system LinuxDevice found
+[ INFO] [1616598192.491808419]: OpenZen sensor with name LPMSRS2000652 on IO system LinuxDevice found
+[ INFO] [1616598192.491826018]: OpenZen sensor with name LPMSTT2000601 on IO system LinuxDevice found
+```
+
