@@ -6,9 +6,9 @@
     <arg name="node3_name" value="imu3_ros_node"/>
 
     <!-- Imu names -->
-    <arg name="imu1_name" value="LPMSCU2001046"/>
-    <arg name="imu2_name" value="LPMSRS2000652"/>
-    <arg name="imu3_name" value="LPMSTT2000601"/>
+    <arg name="imu1_name" value="LPMSRS2000652"/>
+    <arg name="imu2_name" value="LPMSCU2000004"/>
+    <arg name="imu3_name" value="LPMSCU2001046"/>
 
     <!-- First IMU-->
     <node name="imu_node1" type="openzen_sensor_node" pkg="openzen_sensor"
