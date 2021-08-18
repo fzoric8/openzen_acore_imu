@@ -47,3 +47,7 @@ Output should look like this:
 [ INFO] [1616598192.491826018]: OpenZen sensor with name LPMSTT2000601 on IO system LinuxDevice found
 ```
 
+# TODO: 
+
+- [ ] Add frame id to each node during launch 
+- [ ] Measure distances for `static_tf_publisher` 
